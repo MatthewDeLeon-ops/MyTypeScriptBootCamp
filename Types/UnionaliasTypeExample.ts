@@ -9,7 +9,7 @@ type ConversionDescriptor = "as-number" | "as-text";
 function combine(
   input1: Combineable,
   input2: Combineable,
-  resultConversion: ConversionDescriptor // literal type
+  resultConversion: ConversionDescriptor, // literal type
 ) {
   let result;
   if (
@@ -27,11 +27,11 @@ function combine(
   //     return result.toString();
   //   }
 }
-const combinedAges = combine("30", "26", "as-number");
-console.log(combinedAges);
+const combinedAge = combine("30", "26", "as-number");
+console.log(combinedAge);
 
-const combinedStringAges = combine("30", "29", "as-number");
-console.log(combinedStringAges);
+const combinedStringAge = combine("30", "29", "as-number");
+console.log(combinedStringAge);
 
-const combinedNames = combine("max", "Anna", "as-text");
-console.log(combinedNames);
+const combinedName = combine("max", "Anna", "as-text");
+console.log(combinedName);

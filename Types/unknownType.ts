@@ -7,4 +7,3 @@ userInput = "Maxine";
 if (typeof userInput === "string") {
   userName = userInput;
 }
- 

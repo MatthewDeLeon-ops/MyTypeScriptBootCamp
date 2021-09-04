@@ -1,7 +1,7 @@
 function combine(
   input1: number | string,
   input2: number | string,
-  resultConversion: "as-number" | "as-text" // literal type
+  resultConversion: "as-number" | "as-text", // literal type
 ) {
   let result;
   if (
@@ -19,11 +19,11 @@ function combine(
   //     return result.toString();
   //   }
 }
-const combinedAges = combine("30", "26", "as-number");
-console.log(combinedAges);
+const combinedage = combine("30", "26", "as-number");
+console.log(combinedage);
 
-const combinedStringAges = combine("30", "29", "as-number");
-console.log(combinedStringAges);
+const combinedstringages = combine("30", "29", "as-number");
+console.log(combinedstringages);
 
-const combinedNames = combine("max", "Anna", "as-text");
-console.log(combinedNames);
+const combinedname = combine("max", "Anna", "as-text");
+console.log(combinedname);
