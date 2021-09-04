@@ -20,7 +20,7 @@ class ItDepartment extends Department {
     this.admins = admins;
   }
   addEmployee(name: string) {
-    if (name === "Matt") {
+    if (name === "max") {
       return;
     }
     this.employees.push(name);

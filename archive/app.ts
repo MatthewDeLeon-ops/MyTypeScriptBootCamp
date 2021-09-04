@@ -4,8 +4,8 @@ const person2: {
   hobbies: string[];
   roles: [number, string];
 } = {
-  name: "matt",
-  age: 21,
+  name: "max",
+  age: 90,
   hobbies: ["sports", "dating".toLowerCase()],
   roles: [3, "admins"],
 };

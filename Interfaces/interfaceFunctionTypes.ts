@@ -28,7 +28,7 @@ user2 = new Persona("Max");
 // user1.name = 'Manu';
 
 user2.salute("Hi there - I am");
-console.log(user1);
+console.log(user2);
 
 // interfaces allow you to define the structure of objects. In summary.
 

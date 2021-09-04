@@ -47,6 +47,6 @@ let user3: Persona1;
 user3 = new Persona1("Max");
 
 user3.salute("Hi there - I am");
-console.log(user1);
+console.log(user3);
 
 // check out info link here: //www.typescriptlang.org/docs/handbook/2/objects.html

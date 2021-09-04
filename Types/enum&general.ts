@@ -9,8 +9,8 @@ const person: {
   age: number;
   hobbies: string[];
 } = {
-  name: "Matt",
-  age: 21,
+  name: "Maxiless",
+  age: 85,
   hobbies: ["sports", "coding".toLowerCase()],
 };
 
