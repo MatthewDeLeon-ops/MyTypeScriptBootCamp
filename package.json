@@ -13,6 +13,8 @@
   },
   "author": "Maxilesshew De Leon",
   "license": "ISC",
-  "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33"
+  }
 }
