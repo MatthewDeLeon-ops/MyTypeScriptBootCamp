@@ -1,5 +1,5 @@
 // A FEATURE used to define multiple function abilities using different parameters
-
+import { Combineable } from "../standard/UnionaliasTypeExample";
 // Writen by doing the following
 
 // /*

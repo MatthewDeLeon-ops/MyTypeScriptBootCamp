@@ -4,7 +4,7 @@ Type aliases can be used to "create" your own types. You're not limited to stori
 
 */
 
-type Combineable = number | string;
+export type Combineable = number | string;
 type ConversionDescriptor = "as-number" | "as-text";
 function combine(
   input1: Combineable,
