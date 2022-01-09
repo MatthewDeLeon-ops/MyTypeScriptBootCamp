@@ -1,3 +1,5 @@
+import { Combineable } from "../standard/UnionaliasTypeExample";
+
 function add(var1: string, var2: string): string;
 function add(var1: Combineable, var2: Combineable) {
   if (typeof var1 === "string" || typeof var2 === "string") {
@@ -7,6 +9,7 @@ function add(var1: Combineable, var2: Combineable) {
 }
 const values = add("true", "false");
 values.split("");
+//@ts-ignore
 const othervalues = {
   value1: "url",
   value2: "name",

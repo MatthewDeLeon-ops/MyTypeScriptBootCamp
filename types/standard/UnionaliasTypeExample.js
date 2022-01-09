@@ -4,9 +4,9 @@
 Type aliases can be used to "create" your own types. You're not limited to storing union types though - you can also provide an alias to a (possibly complex) object type.
 
 */
-Object.defineProperty(exports, "__esModule", { value: true });
+exports.__esModule = true;
 function combine(input1, input2, resultConversion) {
-    let result;
+    var result;
     if ((typeof input1 === "number" && typeof input2 === "number") ||
         resultConversion === "as-number") {
         result = +input1 + +input2;
@@ -21,9 +21,9 @@ function combine(input1, input2, resultConversion) {
     //     return result.toString();
     //   }
 }
-const combinedAge = combine("30", "26", "as-number");
+var combinedAge = combine("30", "26", "as-number");
 console.log(combinedAge);
-const combinedStringAge = combine("30", "29", "as-number");
+var combinedStringAge = combine("30", "29", "as-number");
 console.log(combinedStringAge);
-const combinedName = combine("max", "Anna", "as-text");
+var combinedName = combine("max", "Anna", "as-text");
 console.log(combinedName);

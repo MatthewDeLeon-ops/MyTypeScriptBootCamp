@@ -1,6 +1,6 @@
 const names: Array<string> = []; // string[]
 // names[0].split("");
-
+//@ts-ignore
 const promise: Promise<string> = new Promise((resolve, reject) => {
   // set functional code in here to be used in the promise
   //EXAMPLE:

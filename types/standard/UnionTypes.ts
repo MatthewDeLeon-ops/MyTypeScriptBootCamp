@@ -1,4 +1,4 @@
-function combine(input1: number | string, input2: number | string) {
+function combined(input1: number | string, input2: number | string) {
   let result;
   if (typeof input1 === "number" && typeof input2 === "number") {
     result = input1 + input2;
@@ -7,8 +7,8 @@ function combine(input1: number | string, input2: number | string) {
   }
   return result;
 }
-const combinedAges = combine(30, 26);
+const combinedAges = combined(30, 26);
 console.log(combinedAges);
 
-const combinedNames = combine("max", "Anna");
+const combinedNames = combined("max", "Anna");
 console.log(combinedNames);
