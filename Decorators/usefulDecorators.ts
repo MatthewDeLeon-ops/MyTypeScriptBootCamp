@@ -1,4 +1,4 @@
-function Logger(logString: string) {
+function Loggers(logString: string) {
 	return function(constructor: Function) {
 	  console.log(logString,'logString');
 	  console.log(constructor,'constructor');

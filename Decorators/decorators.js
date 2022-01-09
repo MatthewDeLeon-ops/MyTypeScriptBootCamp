@@ -1,4 +1,6 @@
 /*
+// Decorator intro\\
+
 function TestingFn(targetarg: Function) {
     console.log('the function invokes here')
     console.log('targetarg', targetarg)
