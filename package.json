@@ -14,6 +14,7 @@
   "author": "Maxilesshew De Leon",
   "license": "ISC",
   "dependencies": {
+    "fix": "^0.0.3",
     "moment": "^2.29.1",
     "moment-timezone": "^0.5.33"
   }
